@@ -282,9 +282,9 @@ section .text_wrap a .viewname:after {
     background:#fff;
     transition: width 0.3s ease-in-out;
 }
-section .text_wrap a .viewname:hover:after {
+/* section .text_wrap a .viewname:hover:after {
     width:100%;
-}
+} */
 
 .pagenum_wrap { 
     position:fixed;
