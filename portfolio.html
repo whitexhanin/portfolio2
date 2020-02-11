@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jieun Lee Web Publisher Developer Site</title>
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">    
+</head>
+    <body>
+        <div id ="Container" class="container">       
+            <header>
+                <svg class="svgtext" viewBox="0 0 960 300">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">JIEUN</text>
+                    </symbol>    
+                    <g class = "g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg> 
+                <h1 class="logo">FIGHTING</h1>
+            </header>
+            <div id = "menuWrap" class="menu_rwrap">
+                <div id = "Menu" class="menu_box">
+                    <!-- open시 HIDE -->
+                    <a href="" class="menu">
+                        <span>M</span>
+                        <span>E</span>
+                        <span>N</span>
+                        <span>U</span>
+                    </a>
+                </div>
+                <ul id="menuList">
+                    <li><a href="./main.html">HOME</a></li>
+                    <li><a href="./portfolio.html">프로젝트</a></li>
+                    <li><a href="./about.html">Publisher 소개</a></li>
+                    <li><a href="#" onclick ="alert('준비중')">문의</a></li>
+                </ul>            
+            </div>
+            <div class="portfolio_page">
+                <div class="tit_big">Web Publishing Portfolio</div>                
+                <div class="portfolio_thumnail">
+                    <ul class="clear">                         
+                        <li>
+                            <a href="./portfolio/blockratings.html">                         
+                                <div class="card_img">
+                                    <img src="./images/portfolio_img/rating.pc.png" alt="">
+                                </div>
+                                <div class="txtbox">
+                                    <span class="tit_mid">블록레이팅스</span>
+                                    <span class="txt_small">적응형 웹/모바일</span>
+                                    <span class="txt_small">HTML,CSS,JQUERY</span>
+                                </div>
+                            </a>   
+                        </li>
+                        <li>
+                            <a href="./portfolio/orbs.html">
+                                <div class="card_img">
+                                        <img src="./images/portfolio_img/orbs100.png" alt="">
+                                </div>
+                                <div class="txtbox">
+                                    <span class="tit_mid">ORBS</span>
+                                    <span class="txt_small">적응형 웹사이트</span>
+                                    <span class="txt_small">HTML,CSS,JQUERY</span>
+                                </div>
+                            </a>                            
+                        </li>
+                        <li>
+                            <a href="./portfolio/blockcast.html">
+                                <div class="card_img">
+                                        <img src="./images/portfolio_img/cast.png" alt="">
+                                </div>
+                                <div class="txtbox">
+                                    <span class="tit_mid">블록캐스트</span>
+                                    <span class="txt_small">적응형 웹/모바일 사이트</span>
+                                    <span class="txt_small">HTML,CSS,JQUERY</span>
+                                </div>
+                            </a>                            
+                        </li>
+                        <li>
+                            <a href="./portfolio/rooted.html">
+                                <div class="card_img">
+                                        <img src="./images/portfolio_img/rooted.png" alt="">
+                                </div>
+                                <div class="txtbox">
+                                    <span class="tit_mid">루티드파트너스</span>
+                                    <span class="txt_small">적응형 웹/모바일 사이트</span>
+                                    <span class="txt_small">HTML,CSS,JQUERY</span>
+                                </div>
+                            </a>                            
+                        </li>                     
+                    </ul>
+                </div>
+            </div>
+        </div>         
+        <script src="./js/nav.js"></script>        
+        <!-- <script src="./js/scroll.js"></script>     -->
+    </body>
+</html>

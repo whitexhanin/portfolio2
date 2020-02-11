@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jieun Lee Web Publisher Developer Site</title>
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">    
+</head>
+<body class="bodymain">    
+    <div id ="Container" class="container">       
+        <header>
+            <svg class="svgtext" viewBox="0 0 960 300">
+                <symbol id="s-text">
+                    <text text-anchor="middle" x="50%" y="80%">JIEUN</text>
+                </symbol>    
+                <g class = "g-ants">
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                </g>
+            </svg> 
+            <h1 class="logo">FIGHTING</h1>
+        </header>
+        <div id = "menuWrap" class="menu_rwrap">
+            <div id = "Menu" class="menu_box">
+                <!-- open시 HIDE -->
+                <a href="" class="menu">
+                    <span>M</span>
+                    <span>E</span>
+                    <span>N</span>
+                    <span>U</span>
+                </a>
+            </div>
+            <ul id="menuList">
+                <li><a href="./main.html">HOME</a></li>
+                <li><a href="./portfolio.html">프로젝트</a></li>
+                <li><a href="./about.html">Publisher 소개</a></li>
+                <li><a href="#" onclick ="alert('준비중')">문의</a></li>
+            </ul>            
+        </div>
+        <section id="page_1" class="mainsection _1">
+            <div class="whitecover"></div>
+            <div class="text_wrap">
+                <div class="textwrap">
+                    <a href="./portfolio/blockratings.html" class="text_awrap">
+                        <span class="tagname">프로젝트 - 블록레이팅스</span>
+                        <h2>1.암호화폐 시장 분석</h2>
+                        <span class="companyname">블록레이팅스</span>
+                        <span class="viewname">프로젝트 보기</span>
+                    </a>   
+                </div>             
+            </div>            
+        </section>
+        <section id="page_2" class="mainsection _2">
+            <div class="whitecover"></div>
+            <div class="text_wrap">
+                <div class="textwrap">
+                    <a href="./portfolio/orbs.html" class="text_awrap">
+                        <span class="tagname">프로젝트 - ORBS</span>
+                        <h2>2.하이브리드 블록체인</h2>
+                        <span class="companyname">ORBS</span>
+                        <span class="viewname">프로젝트 보기</span>
+                    </a>   
+                </div>                    
+            </div>            
+        </section>
+        <section id="page_3" class="mainsection _3">
+            <div class="whitecover"></div>
+            <div class="text_wrap">
+                <div class="textwrap">
+                    <a href="./portfolio/blockcast.html" class="text_awrap">
+                        <span class="tagname">프로젝트 - 블록캐스트</span>
+                        <h2>3.블록체인 커뮤니티</h2>
+                        <span class="companyname">블록캐스트</span>
+                        <span class="viewname">프로젝트 보기</span>
+                    </a> 
+                </div>                   
+            </div>            
+        </section>
+        <section id="page_4" class="mainsection _4">
+            <div class="whitecover"></div>
+            <div class="text_wrap">
+                <div class="textwrap">
+                    <a href="./portfolio/rooted.html" class="text_awrap">
+                        <span class="tagname">프로젝트 - 루티드파트너스</span>
+                        <h2>4.블록체인 세상과 연결</h2>
+                        <span class="companyname">루티드파트너스</span>
+                        <span class="viewname">프로젝트 보기</span>
+                    </a>       
+                </div>         
+            </div>            
+        </section>
+        <section id="page_5" class="mainsection _5">
+            <div class="whitecover"></div>
+            <div class="text_wrap">
+                <div class="textwrap">
+                    <a href="#" onclick="alert('준비중')" class="text_awrap">
+                        <span class="tagname">프로젝트 - (구)포트폴리오</span>
+                        <h2>5.이전 포트폴리오</h2>
+                        <span class="companyname">(구)포트폴리오</span>
+                        <span class="viewname">프로젝트 보기</span>
+                    </a>    
+                </div>                
+            </div>            
+        </section>
+        <div id = "btn_Wrap" class="btn_wrap">
+            <a href="#" class="up"></a>
+            <a href="#" class="down"></a>
+        </div>
+        <div class="pagenum_wrap">
+            <span id="nowPage" class="nowpage">1</span><span class="line">&frasl;</span><span class="totalpage">5</span>
+        </div>
+    </div>   
+    <script src="./js/main.js"></script> 
+    <script src="./js/nav.js"></script> 
+</body>
+</html>
