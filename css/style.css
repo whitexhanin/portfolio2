@@ -104,19 +104,19 @@ svg.svgtext {
     position: relative;
     font-size: 12px;
     font-weight: bold;
-    color: #000;
+    color: #fff;
     width: 40px;
     height: 40px;
     display: block;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     box-sizing: border-box;     
     -webkit-box-sizing: border-box;   
     transition:all 0.4s ease-in-out;   
     -webkit-transition:all 0.4s ease-in-out;  
 }
 .menu_rwrap .menu:hover {
-    background:#000;
-    color:#fff;    
+    background:#fff;
+    color:#000;    
 }
 .menu_rwrap .menu span {
     position: absolute;
@@ -211,7 +211,7 @@ section.mainsection._4 {
     left:0;
     right:0;
     bottom:0;
-    background: rgba(0,0,0,.3);
+    background: rgba(0,0,0,.5);
     z-index:0;
 }
 #page_1 {
@@ -316,8 +316,11 @@ section .text_wrap a .viewname:after {
     background: url('../images/icon/arrow.png') center no-repeat;
     background-size:100%;
 }
+.btn_wrap a.up {
+    transform: rotate(-90deg);
+}
 .btn_wrap a.down {
-    transform: rotate(180deg);
+    transform: rotate(90deg);
 }
 
 @keyframes stroke-offset{
@@ -645,6 +648,10 @@ section .text_wrap a .viewname:after {
     .logo {display: none;}    
     .menu_rwrap .menu_box {top:20px; right:20px;}
     section .text_wrap {width:80%;}
+    section .text_wrap a .companyname {
+        -webkit-text-stroke: inherit;
+        color:#fff;
+    }
 
     /* .main > div {
         width:100%;
@@ -662,7 +669,10 @@ section .text_wrap a .viewname:after {
     .menu_rwrap .menu_box {top:20px; right:20px;}
     section .text_wrap {width:80%;}
     .portfolio_thumnail ul li { width:100%; padding-right:0;}
-
+    section .text_wrap a .companyname {
+        -webkit-text-stroke: inherit;
+        color:#fff;
+    }
     /* .main > div {
         width:100%;
     }  
@@ -683,6 +693,10 @@ section .text_wrap a .viewname:after {
 @media (min-width: 320px) and (max-width: 480px) {
     .main > div {
         width:100%;
+    }
+    section .text_wrap a .companyname {
+        -webkit-text-stroke: inherit;
+        color:#fff;
     }
     /* html {font-size:31.25%;}
     svg.svgtext {display: none;}
