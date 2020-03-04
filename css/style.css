@@ -25,7 +25,7 @@ body.bodymain {
     overflow:hidden;
 }
 .container {
-    background:#eaeaea;
+    background:#d4d3d3;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
